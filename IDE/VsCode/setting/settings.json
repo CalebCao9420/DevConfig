@@ -1,0 +1,104 @@
+{
+    //Basic Settings
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FFC0CB",
+        "editorCursor.background": "#43c7ff"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.xlsx": "default"
+    },
+    "workbench.editor.tabSizingFixedMaxWidth": 260,
+    "workbench.productIconTheme": "Default",
+    "workbench.colorTheme": "Default Dark+",
+    //Extensions Used:
+    "editor.largeFileOptimizations": false,
+    "editor.renderWhitespace": "all",
+    "vscode_custom_css.imports": [
+        "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/cursor/neovide-cursor.js",
+        // "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/editorCSS/transparent.css",
+        // "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/editorCSS/transparent.js",
+        "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/animation/updateHandler.js"
+    ],
+    "vscode_custom_css.policy": true,
+    //Vibrancy Begin
+    "vscode_vibrancy.opacity": 0.7,
+    "vscode_vibrancy.theme": "Default Dark",
+    "vscode_vibrancy.refreshInterval": 500,
+    "vscode_vibrancy.forceFramelessWindow": true,
+    "vscode_vibrancy.disableFramelessWindow": false,
+    //Vibrancy End
+    "dotnet.formatting.organizeImportsOnFormat": true,
+    "animations.Enabled": true,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "[json]": {
+        "editor.defaultFormatter": "oliversturm.fix-json"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "vstuc.displayBackgroundProcesses": true,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "razor.format.enable": false,
+    "csharp.format.enable": false,
+    "csharp.showOmnisharpLogOnError": false,
+    "csharp.semanticHighlighting.enabled": false,
+    "csharp.suppressHiddenDiagnostics": false,
+    "omnisharp.autoStart": false,
+    "omnisharp.useEditorFormattingSettings": false,
+    "omnisharp.useModernNet": false,
+    "json.schemas": [],
+    "[editorconfig]": {},
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "woodfishTheme.enableRainbowCursor": true,
+    "animations.Install-Method": "Custom CSS and JS",
+    "window.newWindowProfile": null,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "csharp": false
+    },
+    //Background
+    "background.editor": {
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "cover",
+            "opacity": 0.1
+        },
+        "styles": [],
+        "images": [
+            "https://haowallpaper.com/link/common/file/previewFileImg/18053407745756544"
+        ],
+        "interval": 0,
+        "random": false
+    },
+    "background.sidebar": {
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "cover",
+            "opacity": 0.05
+        },
+        "images": [
+            // "https://haowallpaper.com/link/common/file/previewFileImg/18053407745756544"
+        ],
+    },
+    "background.panel": {
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "cover",
+            "opacity": 0.05
+        },
+        "images": [
+            // "https://haowallpaper.com/link/common/file/previewFileImg/18053407745756544"
+        ],
+    },
+}
