@@ -2,7 +2,8 @@
     //Basic Settings
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#FFC0CB",
-        "editorCursor.background": "#43c7ff"
+        "editorCursor.background": "#43c7ff",
+        "terminal.background": "#00000000"
     },
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editorAssociations": {
@@ -11,16 +12,11 @@
     "workbench.editor.tabSizingFixedMaxWidth": 260,
     "workbench.productIconTheme": "Default",
     "workbench.colorTheme": "Default Dark+",
-    //Extensions Used:
     "editor.largeFileOptimizations": false,
     "editor.renderWhitespace": "all",
-    "vscode_custom_css.imports": [
-        "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/cursor/neovide-cursor.js",
-        // "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/editorCSS/transparent.css",
-        // "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/editorCSS/transparent.js",
-        "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/animation/updateHandler.js"
-    ],
-    "vscode_custom_css.policy": true,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    //Extensions Used:
     //Vibrancy Begin
     "vscode_vibrancy.opacity": 0.7,
     "vscode_vibrancy.theme": "Default Dark",
@@ -30,8 +26,6 @@
     //Vibrancy End
     "dotnet.formatting.organizeImportsOnFormat": true,
     "animations.Enabled": true,
-    "editor.fontSize": 18,
-    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
     "[json]": {
         "editor.defaultFormatter": "oliversturm.fix-json"
     },
@@ -55,8 +49,7 @@
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "woodfishTheme.enableRainbowCursor": true,
-    "animations.Install-Method": "Custom CSS and JS",
-    "window.newWindowProfile": null,
+    "animations.Install-Method": "Custom UI Style",
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
@@ -101,4 +94,14 @@
             // "https://haowallpaper.com/link/common/file/previewFileImg/18053407745756544"
         ],
     },
+    //Custom ui style
+    "custom-ui-style.external.imports": [
+        "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/cursor/neovide-cursor.js",
+        "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/animation/updateHandler.js"
+    ],
+    "window.systemColorTheme": "dark",
+    "window.autoDetectColorScheme": false,
+    "window.controlsStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "window.newWindowProfile": null,
 }
