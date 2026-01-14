@@ -9,6 +9,11 @@
     "workbench.editorAssociations": {
         "*.xlsx": "default"
     },
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke" : "#ff6600",
+    },
     "workbench.editor.tabSizingFixedMaxWidth": 260,
     "workbench.productIconTheme": "Default",
     "workbench.colorTheme": "Default Dark+",
