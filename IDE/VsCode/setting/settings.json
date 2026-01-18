@@ -14,17 +14,19 @@
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke" : "#ff6600",
     },
+    "workbench.editor.enablePreview": false,
     "workbench.editor.tabSizingFixedMaxWidth": 260,
     "workbench.productIconTheme": "Default",
     "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "SynthWave '84",
     "editor.largeFileOptimizations": false,
     "editor.renderWhitespace": "all",
     "editor.fontSize": 18,
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
     //Extensions Used:
     //Vibrancy Begin
-    "vscode_vibrancy.opacity": 0.7,
-    "vscode_vibrancy.theme": "Default Dark",
+    "vscode_vibrancy.opacity": 0.55,
+    "vscode_vibrancy.theme": "Catppuccin Mocha",
     "vscode_vibrancy.refreshInterval": 500,
     "vscode_vibrancy.forceFramelessWindow": true,
     "vscode_vibrancy.disableFramelessWindow": false,
@@ -40,7 +42,6 @@
     "vstuc.displayBackgroundProcesses": true,
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.enableImages": true,
-    "terminal.integrated.gpuAcceleration": "off",
     "razor.format.enable": false,
     "csharp.format.enable": false,
     "csharp.showOmnisharpLogOnError": false,
@@ -104,9 +105,12 @@
         "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/cursor/neovide-cursor.js",
         "https://raw.githubusercontent.com/CalebCao9420/DevConfig/refs/heads/main/IDE/VsCode/animation/updateHandler.js"
     ],
-    "window.systemColorTheme": "dark",
-    "window.autoDetectColorScheme": false,
-    "window.controlsStyle": "custom",
     "window.titleBarStyle": "custom",
     "window.newWindowProfile": null,
+    "settingsSync.ignoredExtensions": [
+        "ms-python.vscode-python-envs"
+    ],
+    "window.systemColorTheme": "SynthWave",
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.autoDetectColorScheme": false,
 }
