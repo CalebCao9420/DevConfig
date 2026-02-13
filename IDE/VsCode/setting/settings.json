@@ -1,28 +1,60 @@
 {
-    //Basic Settings
+    // ---------- [Basic] Settings --Bgein ----------
     "workbench.colorCustomizations": {
-        "editorCursor.foreground": "#FFC0CB",
-        "editorCursor.background": "#43c7ff",
+        "tree.indentGuidesStroke": "#ff6600",
         "terminal.background": "#00000000"
     },
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.editorAssociations": {
         "*.xlsx": "default"
     },
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke" : "#ff6600",
+        "tree.indentGuidesStroke": "#ff6600",
     },
     "workbench.editor.enablePreview": false,
     "workbench.editor.tabSizingFixedMaxWidth": 260,
     "workbench.productIconTheme": "Default",
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "editor.largeFileOptimizations": false,
     "editor.renderWhitespace": "all",
     "editor.fontSize": 18,
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    //[优化] 🧵 标签页限制（防 OOM）
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": 12,
+    //[优化] 📦 内存与历史控制
+    "files.maxMemoryForLargeFilesMB": 4096,
+    "editor.undoStackSize": 200,
+    "search.maxResults": 1000,
+    "dotnet.autoInsert.enableAutoInsert": true,
+    "dotnet.codeLens.enableReferencesCodeLens": true,
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
+    // dotnet preferCSharpExtension 开启的话会在Activating的时候只启动C# standalone，而关闭的话会使用 C# + C# Dev Kit 大型项目必须使用C# Dev Kit不然解析速度特别慢
+    "dotnet.preferCSharpExtension": false,
+    "dotnet.formatting.organizeImportsOnFormat": true,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.enableImages": true,
+    "vstuc.displayBackgroundProcesses": true,
+    //---------- [Basic] Settings --End ----------
+
+
+
+    //---------- [Git] Settings --Begin ----------
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "csharp": false
+    },
+    
+    //---------- [Git] Settings --End ----------
+
+
+    //---------- [美化] Settings --Begin ----------
     //Extensions Used:
     //Vibrancy Begin
     "vscode_vibrancy.opacity": 0.55,
@@ -31,7 +63,7 @@
     "vscode_vibrancy.forceFramelessWindow": true,
     "vscode_vibrancy.disableFramelessWindow": false,
     //Vibrancy End
-    "dotnet.formatting.organizeImportsOnFormat": true,
+    
     "animations.Enabled": true,
     "[json]": {
         "editor.defaultFormatter": "oliversturm.fix-json"
@@ -39,30 +71,9 @@
     "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp"
     },
-    "vstuc.displayBackgroundProcesses": true,
-    "terminal.integrated.rendererType": "dom",
-    "terminal.integrated.enableImages": true,
+    
     "razor.format.enable": false,
-    "csharp.format.enable": false,
-    "csharp.showOmnisharpLogOnError": false,
-    "csharp.semanticHighlighting.enabled": false,
-    "csharp.suppressHiddenDiagnostics": false,
-    "omnisharp.autoStart": false,
-    "omnisharp.useEditorFormattingSettings": false,
-    "omnisharp.useModernNet": false,
-    "json.schemas": [],
-    "[editorconfig]": {},
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-    "woodfishTheme.enableRainbowCursor": true,
     "animations.Install-Method": "Custom UI Style",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "csharp": false
-    },
     //Background
     "background.editor": {
         "useFront": true,
@@ -111,6 +122,9 @@
         "ms-python.vscode-python-envs"
     ],
     "window.systemColorTheme": "SynthWave",
-    "terminal.integrated.gpuAcceleration": "off",
+    // "terminal.integrated.gpuAcceleration": "off",
     "window.autoDetectColorScheme": false,
+    "background.enabled": true,
+    //---------- [美化] Settings --End ----------
+    
 }
