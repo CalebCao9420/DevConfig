@@ -19,7 +19,7 @@
     "editor.largeFileOptimizations": false,
     "editor.renderWhitespace": "all",
     "editor.fontSize": 18,
-    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "editor.fontFamily": "Hurmit Nerd Font",
     //[优化] 🧵 标签页限制（防 OOM）
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": 12,
