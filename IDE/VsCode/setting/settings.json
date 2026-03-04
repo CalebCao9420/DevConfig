@@ -126,5 +126,10 @@
     "window.autoDetectColorScheme": false,
     "background.enabled": true,
     //---------- [美化] Settings --End ----------
+
+    //---------- [Lua] Settings --Begin ----------
+    "[lua]": {
+        "editor.defaultFormatter": "sumneko.lua"
+    },
     
 }
